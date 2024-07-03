@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+
+.hind-siliguri-light {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.hind-siliguri-regular {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hind-siliguri-medium {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hind-siliguri-semibold {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hind-siliguri-bold {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.invoice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.invoice-header-into {
+  background-color: #727272;
+  padding: 2px 0;
+}
+.invoice-header-into h1 {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
+.invoice-header-company {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.invoice-header-company .invoice-header-company-name {
+  background-color: #d4d4d4;
+  width: 70%;
+  border-bottom-right-radius: 30px;
+}
+.invoice-header-company .invoice-header-company-name h1 {
+  margin: 0;
+}
+.invoice-header-company .invoice-header-company-number {
+  width: 30%;
+  margin: 0 5px;
+  text-align: right;
+}
+.invoice-header-company .invoice-header-company-number p {
+  margin: 0;
+  font-size: 16px;
+}
+.invoice-header-company .invoice-header-company-number span {
+  margin: 0;
+  font-size: 14px;
+}
+
+.invoice-header-provider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.invoice-header-provider .invoice-header-provider-name {
+  width: 70%;
+  text-align: left;
+  padding: 0 20px;
+}
+.invoice-header-provider .invoice-header-provider-name h1 {
+  margin: 0;
+  font-size: 20px;
+}
+.invoice-header-provider .invoice-header-provider-name p {
+  margin: 0;
+  font-size: 15px;
+}
+.invoice-header-provider .invoice-header-provider-copy {
+  background: #1f1f1f;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.invoice-header-ads {
+  background-color: #525151;
+}
+.invoice-header-ads p {
+  margin: 0;
+  padding: 2px 5px;
+  color: #fff;
+}
+
+.invoice-header-client {
+  padding: 0 20px;
+}
+.invoice-header-client .invoice-header-client-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.invoice-header-client .invoice-header-client-date .invoice-no {
+  text-align: left;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.invoice-header-client .invoice-header-client-date .invoice-no p {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.invoice-header-client .invoice-header-client-date .invoice-no span {
+  margin: 0;
+  /* border-bottom: 1px dotted #000; */
+  width: 100%;
+}
+.invoice-header-client .invoice-header-client-date .invoice-date {
+  text-align: left;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.invoice-header-client .invoice-header-client-date .invoice-date P {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.invoice-header-client .invoice-header-client-date .invoice-date span {
+  margin: 0;
+}
+.invoice-header-client-name {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.invoice-header-client-name p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.invoice-header-client-name span {
+  margin: 0;
+  border-bottom: 1px dotted #000;
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+.invoice-header-client-address {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.invoice-header-client-address p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.invoice-header-client-address span {
+  margin: 0;
+  border-bottom: 1px dotted #000;
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+.print-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.invoice-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.invoice-copy {
+  width: 48%;
+  border: 1px solid #000;
+  /* padding: 10px; */
+  box-sizing: border-box;
+}
+
+.divider {
+  width: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider::before {
+  content: "";
+  border-left: 2px dotted #000;
+  height: 100%;
+}
+
+.invoice-header {
+  text-align: center;
+}
+
+.invoice-table {
+  text-align: center;
+  width: 95%;
+  border-collapse: collapse;
+  margin: 10px auto 0;
+  font-size: 14px;
+}
+
+.invoice-table {
+  width: 95%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+.invoice-table th {
+  background-color: #e0e0e0;
+}
+.invoice-table th,
+.invoice-table td {
+  border: 1px solid #b1aeae;
+  padding: 2px 8px;
+  text-align: left;
+}
+
+.invoice-summary {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+}
+.invoice-kothay {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.invoice-kothay .invoice-kothay-text {
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+.invoice-kothay .invoice-kothay-text p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.invoice-kothay .invoice-kothay-text span {
+  margin: 0;
+  border-bottom: 1px dotted #000;
+  padding-bottom: 0px;
+  width: 100%;
+  font-size: 14px;
+}
+.invoice-info-web {
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+.invoice-info-web p {
+  margin: 0;
+  font-size: 12px;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.invoice-info-web span {
+  margin: 0;
+  width: 100%;
+  font-size: 12px;
+}
+.invoice-kothay .invoice-kothay-image {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+.invoice-kothay .invoice-kothay-image img {
+  height: 40px;
+}
+
+.summary-table {
+  border-collapse: collapse;
+  width: 45%;
+  font-size: 14px;
+}
+
+.summary-table th,
+.summary-table td {
+  border: 1px solid #b1aeae;
+  padding: 2px 8px;
+  text-align: right;
+}
+/* .summary-table td {
+  font-weight: bold;
+} */
+.invoice-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin: 40px auto 10px;
+  /* padding: 0 10px; */
+}
+
+.invoice-footer .invoice-footer-client {
+  width: 20%;
+  text-align: center;
+}
+.invoice-footer .invoice-footer-client span {
+  text-align: center;
+  width: 20%;
+  border-top: 1px dotted #000;
+  font-size: 14px;
+}
+.invoice-footer .invoice-footer-ads {
+  text-align: center;
+  width: 60%;
+}
+.invoice-footer .invoice-footer-ads span {
+  background-color: #525151;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+.invoice-footer .invoice-footer-office {
+  width: 20%;
+  text-align: center;
+}
+.invoice-footer .invoice-footer-office span {
+  border-top: 1px dotted #000;
+  width: 20%;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media print {
+  .print-button {
+    display: none;
+  }
+
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+  }
+
+  header,
+  footer {
+    display: none;
+  }
+
+  .invoice-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .invoice-copy {
+    width: 48%;
+  }
+
+  .divider {
+    width: 4%;
+  }
+}
