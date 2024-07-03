@@ -71,7 +71,7 @@ function App() {
               <div className="invoice-header-provider">
                 <div className="invoice-header-provider-name">
                   <h1>প্রো: মোঃ নূরে আলম সিদ্দিক (রুবেল)</h1>
-                  <p>উত্তর বাজার, নকল, শেরপুর। </p>
+                  <p>উত্তর বাজার, নকলা, শেরপুর। </p>
                 </div>
                 <div className="invoice-header-provider-copy">অফিস কপি</div>
               </div>
@@ -88,13 +88,19 @@ function App() {
                     <p>তারিখ:</p> <span>০৩ জুলাই ২০২৪</span>
                   </div>
                 </div>
-                <div className="invoice-header-client-name">
-                  <p>নাম:</p>
-                  <span>শফিউল আলাম</span>
+                <div className="invoice-header-client-information">
+                  <div className="invoice-name">
+                    <p>নাম:</p>
+                    <span>শফিউল আলাম</span>
+                  </div>
+                  <div className="invoice-mobile">
+                    <p>মোবাইল:</p>
+                    <span>০১৭৯৯৩৪৫৪৯৯</span>
+                  </div>
                 </div>
                 <div className="invoice-header-client-address">
                   <p>ঠিকানা :</p>
-                  <span>নকল শেরপুর</span>
+                  <span>নকলা, শেরপুর</span>
                 </div>
               </div>
             </div>
@@ -210,7 +216,7 @@ function App() {
               <div className="invoice-header-provider">
                 <div className="invoice-header-provider-name">
                   <h1>প্রো: মোঃ নূরে আলম সিদ্দিক (রুবেল)</h1>
-                  <p>উত্তর বাজার, নকল, শেরপুর। </p>
+                  <p>উত্তর বাজার, নকলা, শেরপুর। </p>
                 </div>
                 <div className="invoice-header-provider-copy">গ্রাহক কপি</div>
               </div>
@@ -227,13 +233,19 @@ function App() {
                     <p>তারিখ:</p> <span>০৩ জুলাই ২০২৪</span>
                   </div>
                 </div>
-                <div className="invoice-header-client-name">
-                  <p>নাম:</p>
-                  <span>শফিউল আলাম</span>
+                <div className="invoice-header-client-information">
+                  <div className="invoice-name">
+                    <p>নাম:</p>
+                    <span>শফিউল আলাম</span>
+                  </div>
+                  <div className="invoice-mobile">
+                    <p>মোবাইল:</p>
+                    <span>০১৭৯৯৩৪৫৪৯৯</span>
+                  </div>
                 </div>
                 <div className="invoice-header-client-address">
                   <p>ঠিকানা :</p>
-                  <span>নকল শেরপুর</span>
+                  <span>নকলা, শেরপুর</span>
                 </div>
               </div>
             </div>

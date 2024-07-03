@@ -82,13 +82,11 @@ body {
 .invoice-header-company .invoice-header-company-number p {
   margin: 0 5px 0 0;
   font-size: 12px;
-  line-height: 0;
   font-weight: bold;
 }
 .invoice-header-company .invoice-header-company-number span {
   margin: 0;
   font-size: 12px;
-  line-height: 1.2;
 }
 
 .invoice-header-provider {
@@ -169,12 +167,50 @@ body {
 .invoice-header-client .invoice-header-client-date .invoice-date span {
   margin: 0;
 }
-.invoice-header-client-name {
-  text-align: left;
+.invoice-header-client-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+}
+.invoice-header-client-information .invoice-name {
+  text-align: left;
+  width: 60%;
   display: flex;
   align-items: center;
 }
+.invoice-header-client-information .invoice-name p {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.invoice-header-client-information .invoice-name span {
+  margin: 0;
+  border-bottom: 1px dotted #000;
+  width: 100%;
+}
+
+.invoice-header-client-information .invoice-mobile {
+  text-align: left;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.invoice-header-client-information .invoice-mobile p {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.invoice-header-client-information .invoice-mobile span {
+  margin: 0;
+  border-bottom: 1px dotted #000;
+  width: 100%;
+}
+
 .invoice-header-client-name p {
   margin: 0;
   font-size: 16px;
