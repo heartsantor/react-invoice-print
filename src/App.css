@@ -290,17 +290,13 @@ body {
   text-align: center;
   width: 95%;
   border-collapse: collapse;
-  margin: 10px auto 0;
-  font-size: 14px;
+  margin: 10px auto 10px;
+  font-size: 12px;
 }
 
-.invoice-table {
-  width: 95%;
-  border-collapse: collapse;
-  margin-bottom: 10px;
-}
 .invoice-table th {
   background-color: #e0e0e0;
+  font-size: 14px;
 }
 .invoice-table th,
 .invoice-table td {
@@ -354,7 +350,7 @@ body {
 .summary-table {
   border-collapse: collapse;
   width: 45%;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .summary-table th,
